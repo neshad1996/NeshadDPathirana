@@ -1,4 +1,4 @@
-// Theme
+// Theme toggle
 const root = document.documentElement;
 const themeBtn = document.getElementById("themeBtn");
 
@@ -10,7 +10,6 @@ function setTheme(theme) {
 const savedTheme = localStorage.getItem("theme");
 if (savedTheme) setTheme(savedTheme);
 
-// Toggle theme
 themeBtn?.addEventListener("click", () => {
   const current = root.getAttribute("data-theme") || "dark";
   setTheme(current === "dark" ? "light" : "dark");
@@ -25,7 +24,6 @@ burger?.addEventListener("click", () => {
   burger.setAttribute("aria-expanded", String(isOpen));
 });
 
-// Close menu when clicking a link (mobile)
 nav?.addEventListener("click", (e) => {
   const a = e.target.closest("a");
   if (!a) return;
@@ -59,19 +57,18 @@ copyBtn?.addEventListener("click", async () => {
     copyBtn.textContent = "Copied!";
     setTimeout(() => (copyBtn.textContent = "Copy email"), 1200);
   } catch {
-    // fallback
     prompt("Copy this email:", email);
   }
 });
 
-// Back to top button
+// Back to top
 const toTop = document.getElementById("toTop");
 window.addEventListener("scroll", () => {
   if (!toTop) return;
-  const show = window.scrollY > 600;
-  toTop.classList.toggle("show", show);
+  toTop.classList.toggle("show", window.scrollY > 600);
 });
 toTop?.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
 
 // Footer year
 document.getElementById("year").textContent = new Date().getFullYear();
+
