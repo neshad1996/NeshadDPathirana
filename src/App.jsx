@@ -29,14 +29,9 @@ export default function App() {
   const sectionIds = useMemo(() => nav.map((n) => n.id), []);
   const active = useActiveSection(sectionIds);
 
-  const [theme, setTheme] = useState(() => localStorage.getItem("theme") || "dark");
   const [menuOpen, setMenuOpen] = useState(false);
   const [openProject, setOpenProject] = useState(null);
 
-  useEffect(() => {
-    document.documentElement.dataset.theme = theme;
-    localStorage.setItem("theme", theme);
-  }, [theme]);
 
   useEffect(() => {
     const onKey = (e) => {
@@ -75,15 +70,6 @@ export default function App() {
 
           {/* Right-side actions */}
           <div className="navActions">
-            <button
-              className="iconBtn"
-              type="button"
-              onClick={() => setTheme((t) => (t === "dark" ? "light" : "dark"))}
-              aria-label="Toggle theme"
-              title="Toggle theme"
-            >
-              ◐
-            </button>
 
             <a className="btn small" href={profile.cvUrl} target="_blank" rel="noreferrer">
               Download CV
@@ -138,9 +124,6 @@ export default function App() {
               </div>
 
               <div className="menuActions">
-                <button className="btn ghost" onClick={() => setTheme((t) => (t === "dark" ? "light" : "dark"))}>
-                  Toggle theme
-                </button>
                 <a className="btn" href={profile.cvUrl} target="_blank" rel="noreferrer">
                   Download CV
                 </a>
