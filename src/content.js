@@ -191,11 +191,9 @@ export const service = [
   "IReNA / JINA-CEE / CeNAM (member)"
 ];
 
-// CONTACT FORM CONFIG
-// To receive messages directly in your inbox on a static site, use Formspree.
-// Create a form on Formspree, then paste endpoint here (e.g., https://formspree.io/f/xxxxabcd).
+
 export const contactForm = {
-  endpoint: "",
+  endpoint: "https://formspree.io/f/mqedkpqz",
   emailTo: "devanes1@msu.edu",
   subjectPrefix: "Website message"
 };
