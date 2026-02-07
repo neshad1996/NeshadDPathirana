@@ -1,6 +1,6 @@
 export const profile = {
   name: "Neshad D. Pathirana",
-  title: "Ph.D. Candidate in Physics • Experimental Nuclear Physics • Nuclear Astrophysics • Neutrino Physics",
+  title: "Ph.D. Candidate in Physics • Nuclear Physics • Astrophysics • Neutrino Physics",
   subtitle:
     "I build experimentally constrained nuclear inputs for nucleosynthesis and neutrino physics using charge-exchange reactions, Oslo-method techniques, and modeling.",
   location: "East Lansing, MI, USA",
