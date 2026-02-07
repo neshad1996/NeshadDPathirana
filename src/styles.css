@@ -618,3 +618,20 @@ input:focus, textarea:focus{
   text-decoration: none;
 }
 .socialIcon svg{ display:block; }
+
+/* Two-paragraph subtitle spacing */
+.leadStack { 
+  display: grid; 
+  gap: 12px; 
+}
+
+/* Justified hero subtitle */
+.leadJustify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+@media (max-width: 640px){
+  .leadJustify { text-align: left; }
+}
+
