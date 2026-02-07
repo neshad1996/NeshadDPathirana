@@ -65,7 +65,7 @@ export const news = [
     id: "news-2026-02-06",
     date: "2026-02-06",
     title: "Website launched",
-    summary: "New personal academic website is live with research portfolio and publications.",
+    summary: "New personal academic website is live with research portfolio and publications.New personal academic website is live with research portfolio and publications.New personal academic website is live with research portfolio and publications.",
     images: [],
     details: ["React + Vite site deployed on GitHub Pages.", "News items are expandable to keep the page concise."],
     links: []
