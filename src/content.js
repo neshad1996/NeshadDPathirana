@@ -168,6 +168,15 @@ export const teaching = [
       "Tutor in charge: PHY 415 — Mathematical Modeling in Physics"
     ]
   }
+  {
+    place: "Michigan State University",
+    timeframe: "Aug 2022 – Dec 2024",
+    items: [
+      "Instructor in charge: PHY 252 — Introductory Physics Laboratory II",
+      "Instructor in charge: ISP 205L — Visions of the Laboratory",
+      "Tutor in charge: PHY 415 — Mathematical Modeling in Physics"
+    ]
+  }
 ];
 
 export const awards = [
