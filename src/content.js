@@ -199,6 +199,10 @@ export const awards = [
   "Merit Award in SURS Symposium"
 ];
 
+export const services = [
+  "Galonsky International Travel Award"
+];
+
 
 
 export const contactForm = {
