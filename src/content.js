@@ -78,60 +78,104 @@ export const news = [
 // Research projects
 export const projects = [
   {
-    id: "nb92",
-    title: "Cosmochronometer 92Nb Production Sites",
-    timeframe: "Ongoing",
-    role: "Graduate Research Assistant (FRIB / MSU)",
+    id: "oslomethod",
+    title: "Experimental Extraction of Nuclear Statistical Properties",
+    timeframe: "Published + Ongoing",
+    role: "Graduate Research Assistant (FRIB/MSU) • Visiting Scholar (University of Oslo)",
     image: "/images/92nb.webp",
-    tags: ["charge-exchange", "Gamow–Teller", "nucleosynthesis"],
+    tags: ["Oslo Method", "CE-Oslo Method", "NLD", "γSF"],
     summary:
-      "Extracting astrophysical reaction rates relevant to 92Nb via charge-exchange data and Gamow–Teller strength.",
+      "Extracting nuclear statistical properties with the Oslo Method to provide experimental constraints and reduce uncertainties in reaction modeling.",
     bullets: [
-      "Uses 92Zr(3He,t) experimental data",
-      "Targets key nuclear inputs shaping 92Nb production/destruction pathways"
+      "Targets key statistical inputs in nuclei where experimental constraints are scarce or unavailable",
+      "Performs experiments using transfer and charge-exchange (CE) reactions across multiple systems",
+      "Extracts nuclear level densities (NLDs) and γ-ray strength functions (γSFs) using Oslo-method techniques",
+      "Develops and applies the CE-Oslo method to extend Oslo-type extractions to charge-exchange reactions"
     ],
     links: []
   },
   {
-    id: "ceoslo",
-    title: "CE-Oslo Method for (n,γ) Constraints",
-    timeframe: "Published + ongoing extensions",
-    role: "Method development + first applications",
-    image: "/images/ce-oslo.webp",
-    tags: ["Oslo method", "charge-exchange", "(n,γ)"],
+    id: "neutron",
+    title: "Indirect Constraints on Neutron-Capture Reaction Rates",
+    timeframe: "Published + Ongoing",
+    role: "Graduate Research Assistant (FRIB/MSU) • Visiting Scholar (University of Oslo)",
+    image: "/images/92nb.webp",
+    tags: ["Hauser–Feshbach", "TALYS", "NLD", "γSF"],
     summary:
-      "Developed the Charge-Exchange Oslo (CE-Oslo) method and applied it to constrain neutron-capture cross sections.",
+      "Constraining astrophysical (n,γ) rates by incorporating experimentally extracted statistical inputs into Hauser–Feshbach calculations.",
     bullets: [
-      "First application toward 92Zr(n,γ)93Zr constraints",
-      "Bridges charge-exchange information with statistical properties"
+      "Focuses on neutron-capture rates relevant to nucleosynthesis and cosmochronometry",
+      "Combines experimentally extracted NLD and γSF with model systematics to reduce reaction-rate uncertainties",
+      "Performs Hauser–Feshbach calculations using TALYS and evaluates the impact of nuclear-input variations"
     ],
     links: []
   },
   {
-    id: "pb208",
-    title: "Neutrino–208Pb Charged-Current Cross Sections",
+    id: "astro",
+    title: "Core-Collapse and Thermonuclear Supernova Nucleosynthesis Modeling",
     timeframe: "Ongoing",
-    role: "GT strength extraction from charge-exchange data",
-    image: "/images/neutrino-pb.webp",
-    tags: ["neutrinos", "charge-exchange", "208Pb"],
+    role: "Graduate Research Assistant (FRIB/MSU) • Visiting Scholar (University of Oslo)",
+    image: "/images/92nb.webp",
+    tags: ["NuGrid", "PPN", "WinNet", "p-process"],
     summary:
-      "Determining neutrino–208Pb CC cross sections by extracting Gamow–Teller strength from charge-exchange reactions.",
-    bullets: ["Based on 208Pb(3He,t)208Bi reaction data", "Supports neutrino detection / nuclear response applications"],
+      "Simulating nucleosynthesis in core-collapse and thermonuclear supernova environments using experimentally constrained reaction rates in post-processing networks.",
+    bullets: [
+      "Propagates experimentally constrained neutron-capture rates into nucleosynthesis calculations",
+      "Runs post-processing simulations using NuGrid (PPN) and WinNet across CCSN and SNe Ia trajectories",
+      "Quantifies how nuclear-physics constraints shift predicted p-process yields and addresses key model discrepancies"
+    ],
+    links: []
+  },
+  {
+    id: "mda",
+    title: "Extraction of Gamow–Teller and Fermi Strength via Charge-Exchange Reactions",
+    timeframe: "Ongoing",
+    role: "Graduate Research Assistant (FRIB/MSU)",
+    image: "/images/ce-oslo.webp",
+    tags: ["Charge-Exchange", "Multipole Decomposition Analysis", "DWBA", "Gamow–Teller"],
+    summary:
+      "Extracting Gamow–Teller and Fermi transition strengths from charge-exchange data using multipole decomposition analysis (MDA) to reduce theoretical uncertainties.",
+    bullets: [
+      "Targets weak-interaction nuclear inputs relevant to neutrino physics and nuclear astrophysics",
+      "Performs charge-exchange measurements and constructs angular-distribution observables",
+      "Applies MDA with DWBA-based templates to isolate isovector transition components",
+      "Extracts Gamow–Teller and Fermi strengths for use in neutrino–nucleus cross-section calculations"
+    ],
+    links: []
+  },
+  {
+    id: "neutrino",
+    title: "Indirect Constraints on Charged-Current Neutrino–Nucleus Cross Sections",
+    timeframe: "Ongoing",
+    role: "Graduate Research Assistant (FRIB/MSU)",
+    image: "/images/ce-oslo.webp",
+    tags: ["Gamow–Teller", "Fermi", "Charged-Current", "MARLEY"],
+    summary:
+      "Constraining charged-current neutrino–nucleus cross sections using experimentally extracted transition strengths to improve predictions for detectors and astrophysical applications.",
+    bullets: [
+      "Uses experimentally extracted Gamow–Teller and Fermi strengths as key nuclear inputs",
+      "Computes charged-current neutrino–nucleus cross sections (including low-momentum-transfer limits) using MARLEY",
+      "Benchmarks and updates cross-section inputs for applications in neutrino detection and astrophysical modeling"
+    ],
     links: []
   },
   {
     id: "lenda",
-    title: "LENDA Detector Upgrade & Testing",
+    title: "LENDA Detector Upgrade and Performance Testing",
     timeframe: "Ongoing",
-    role: "Detector development",
+    role: "Graduate Research Assistant (FRIB/MSU)",
     image: "/images/lenda.webp",
-    tags: ["instrumentation", "neutrons", "scintillators"],
+    tags: ["Instrumentation", "Neutrons", "Scintillators"],
     summary:
-      "Contributing to LENDA upgrade work by testing and evaluating scintillator materials for improved neutron detection.",
-    bullets: ["Hands-on testing & evaluation", "Supports experimental campaigns at FRIB"],
+      "Contributing to the LENDA upgrade through detector testing and performance characterization to improve neutron-detection capabilities for upcoming experiments.",
+    bullets: [
+      "Leads hands-on testing and evaluation of detector components and scintillator performance",
+      "Supports commissioning and readiness for experimental campaigns at FRIB"
+    ],
     links: []
   }
 ];
+
 
 export const publications = [
   {
