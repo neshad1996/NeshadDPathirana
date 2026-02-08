@@ -112,7 +112,7 @@ export const projects = [
   },
   {
     id: "astro",
-    title: "Core-Collapse and Thermonuclear Supernova Nucleosynthesis Modeling",
+    title: "Supernova Post-Processing Nucleosynthesis Modeling",
     timeframe: "Ongoing",
     role: "Graduate Research Assistant (FRIB/MSU) • Visiting Scholar (University of Oslo)",
     image: "/images/supernova.webp",
@@ -128,7 +128,7 @@ export const projects = [
   },
   {
     id: "mda",
-    title: "Extraction of Gamow–Teller and Fermi Strength via Charge-Exchange Reactions",
+    title: "Extraction of Gamow–Teller and Fermi Strengths via Charge-Exchange Reactions",
     timeframe: "Ongoing",
     role: "Graduate Research Assistant (FRIB/MSU)",
     image: "/images/charge_exchange.png",
