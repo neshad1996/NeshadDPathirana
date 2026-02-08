@@ -164,7 +164,7 @@ export const projects = [
     title: "LENDA Detector Upgrade and Performance Testing",
     timeframe: "Ongoing",
     role: "Graduate Research Assistant (FRIB/MSU)",
-    image: "/images/lenda.png",
+    image: "/images/lenda.jpg",
     tags: ["Instrumentation", "Neutrons", "Scintillators"],
     summary:
       "Contributing to the LENDA upgrade through detector testing and performance characterization to improve neutron-detection capabilities for upcoming experiments.",
