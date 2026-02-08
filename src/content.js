@@ -131,7 +131,7 @@ export const projects = [
     title: "Extraction of Gamow–Teller and Fermi Strength via Charge-Exchange Reactions",
     timeframe: "Ongoing",
     role: "Graduate Research Assistant (FRIB/MSU)",
-    image: "/images/accelerator.png",
+    image: "/images/charge_exchange.jpg",
     tags: ["Charge-Exchange", "Multipole Decomposition Analysis", "DWBA", "Gamow–Teller"],
     summary:
       "Extracting Gamow–Teller and Fermi transition strengths from charge-exchange data using multipole decomposition analysis (MDA) to reduce theoretical uncertainties.",
