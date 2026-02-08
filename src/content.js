@@ -115,7 +115,7 @@ export const projects = [
     title: "Core-Collapse and Thermonuclear Supernova Nucleosynthesis Modeling",
     timeframe: "Ongoing",
     role: "Graduate Research Assistant (FRIB/MSU) • Visiting Scholar (University of Oslo)",
-    image: "/images/supernova.png",
+    image: "/images/supernova.webp",
     tags: ["NuGrid", "PPN", "WinNet", "p-process"],
     summary:
       "Simulating nucleosynthesis in core-collapse and thermonuclear supernova environments using experimentally constrained reaction rates in post-processing networks.",
