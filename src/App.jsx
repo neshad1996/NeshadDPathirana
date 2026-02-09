@@ -203,7 +203,7 @@ export default function App() {
         </section>
 
         {/* RESEARCH */}
-        <Section id="research" title="Research" subtitle="Selected projects — click a card for details.">
+        <Section id="research" title="Research" subtitle="Research overview and ongoing projects — click a card for details">
 
           <div className="grid">
             {visibleProjects.map((p, idx) => (
@@ -243,7 +243,7 @@ export default function App() {
         </Section>
 
         {/* PUBLICATIONS */}
-        <Section id="publications" title="Publications" subtitle="Selected items (you can add full BibTeX later).">
+        <Section id="publications" title="Publications" subtitle="Journal articles, conference proceedings, and preprints">
           <div className="card">
             <ul className="pubs">
               {publications.map((pub) => (
@@ -270,7 +270,7 @@ export default function App() {
         </Section>
 
         {/* TEACHING */}
-        <Section id="teaching" title="Teaching" subtitle="Courses, labs, and tutoring roles.">
+        <Section id="teaching" title="Teaching" subtitle="Instructional experience in courses, labs, and tutoring">
           <div className="twoCol">
             {teaching.map((t) => (
               <motion.div
@@ -294,7 +294,7 @@ export default function App() {
         </Section>
 
         {/* AWARDS */}
-        <Section id="awards" title="Honors & Awards" subtitle="Selected awards and recognitions.">
+        <Section id="awards" title="Honors & Awards" subtitle="Highlights of fellowships, scholarships, and awards">
           <div className="card">
             <div className="cols">
               {awards.map((a) => (
@@ -305,7 +305,7 @@ export default function App() {
         </Section>
 
         {/* NEWS */}
-        <Section id="news" title="News" subtitle="Click an item for details. Use “Show all” to expand the full timeline.">
+        <Section id="news" title="News" subtitle="Click an item for details. Use “Show all” to expand the full timeline">
           <div className="newsTopRow">
             <div className="muted">
               Showing {visibleNews.length} of {sortedNews.length}
