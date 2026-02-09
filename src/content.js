@@ -8,6 +8,8 @@ export const profile = {
     "My research is centered on experimental nuclear physics and its applications to both nuclear astrophysics and neutrino physics. I use precision measurements and modern detector techniques to constrain the nuclear data needed to model how elements are synthesized in astrophysical environments and to improve predictions for neutrino–nucleus interactions relevant to laboratory and cosmic settings."
   ],
   email: "devanes1@msu.edu",
+  phone: "+1 (517) 974-7964",
+  address: "Facility for Rare Isotope Beams (FRIB)\nMichigan State University\n640 S Shaw Lane\nEast Lansing, MI 48824, USA",
 
 
   // Files in /public
@@ -668,10 +670,6 @@ export const awards = [
   "University of Peradeniya Award for Academic Excellence",
   "Eramudugolla Dunuwila Prize in Mathematics",
   "Merit Award in SURS Symposium"
-];
-
-export const service = [
-  "Galonsky International Travel Award"
 ];
 
 
