@@ -751,8 +751,8 @@ input:focus, textarea:focus{
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 46px;
-  padding: 8px 12px;
+  height: 64px;
+  padding: 10px 14px;
   border-radius: 14px;
   border: 1px solid var(--line);
   text-decoration: none;
@@ -776,9 +776,9 @@ input:focus, textarea:focus{
 }
 
 .affLogoImg{
-  height: 26px;
+  height: 40px;
   width: auto;
-  max-width: 160px;
+  max-width: 190px;
   object-fit: contain;
   display: block;
   filter: drop-shadow(0 6px 14px rgba(0,0,0,0.35));
