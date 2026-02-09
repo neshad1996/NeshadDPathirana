@@ -752,7 +752,7 @@ input:focus, textarea:focus{
   align-items: center;
   justify-content: center;
   height: 54px;
-  padding: 6px 10px;
+  padding: 9px 12px;
   border-radius: 14px;
   border: 1px solid var(--line);
   text-decoration: none;
@@ -781,5 +781,8 @@ input:focus, textarea:focus{
   max-width: 160px;
   object-fit: contain;
   display: block;
+  transform: scale(1.12);      /* zooms into logo */
+  transform-origin: center;
   filter: drop-shadow(0 6px 14px rgba(0,0,0,0.35));
 }
+
