@@ -90,7 +90,7 @@ export const news = [
     title: "PANDROA experiment campaign at RCNP (Osaka University)",
     summary:
       "Participated in the PANDROA experiment campaign at RCNP (Osaka University), contributing to hands-on preparation and gaining experience with large-scale detector, DAQ, and collaboration analysis workflows.",
-    images: [],
+    images: ["/images/news/pandora.jpg"],
     details: [
       "Hands-on involvement in experiment preparation and operations during a multi-experiment campaign at RCNP.",
       "Worked in the Grand Raiden spectrometer environment and with LaBr3 detector arrays and associated systems.",
@@ -121,7 +121,7 @@ export const news = [
     title: "Elected to Sigma Xi — The Scientific Research Honor Society",
     summary:
       "Selected as a member of Sigma Xi, a nomination-based, international research honor society recognizing demonstrated research achievements and potential.",
-    images: [],
+    images: ["/images/news/sigmaXi.jpg"],
     details: [
       "Sigma Xi is an international, multidisciplinary research honor society founded in 1886.",
       "Membership is by nomination and recognizes research achievements or strong research potential.",
@@ -133,10 +133,10 @@ export const news = [
   {
     id: "news-2025-08-19-frib-theory-alliance-school",
     date: "2025-08-19",
-    title: "Selected for the FRIB Theory Alliance Summer School (MSU)",
+    title: "Participated in the FRIB Theory Alliance Summer School (MSU)",
     summary:
       "Selected for the FRIB Theory Alliance Summer School “Emergence of Collective Motion in Atomic Nuclei” (Aug 19–22, 2025), expanding my nuclear theory foundation alongside experimental research.",
-    images: [],
+    images: ["/images/news/fribTA.jpg"],
     details: [
       "Opportunity to collaborate with theorists and deepen understanding of nuclear structure and collective phenomena.",
       "Strengthened theory–experiment perspective relevant to reactions, structure inputs, and astrophysical applications."
@@ -150,7 +150,7 @@ export const news = [
     title: "Summer school & hackathon: Open Questions and Research Tools in Nuclear Astrophysics (Beaver Island)",
     summary:
       "Attended the “Open Questions and Research Tools in Nuclear Astrophysics” summer school and hackathon (July 21–25, 2025), combining lectures on open problems with a team-based hackathon on real research challenges.",
-    images: [],
+    images: ["/images/news/hackthon.jpg"],
     details: [
       "My 4th summer school during the Ph.D.; a major step in shaping my research direction through intensive community engagement.",
       "Hands-on highlight: training with the WinNet astrophysical reaction network, directly supporting my Ph.D. modeling work.",
@@ -165,7 +165,7 @@ export const news = [
     title: "Completed fully funded Visiting Scientist Scholar stay at the University of Oslo",
     summary:
       "Completed a fully funded Visiting Scientist Scholar stay at the University of Oslo (April–July 2025), participating in experiments and advancing a major part of my Ph.D. thesis analysis toward publication.",
-    images: [],
+    images: ["/images/news/oslo2.jpg"],
     details: [
       "Participated in experiments and analyzed a major component of my Ph.D. thesis, with results planned for an upcoming paper.",
       "Built long-term scientific connections and gained valuable experience working within the Oslo nuclear-research ecosystem.",
@@ -180,7 +180,7 @@ export const news = [
     title: "Poster + 5-minute talk at the siREN International Conference (Giulianova, Italy)",
     summary:
       "Presented my 5th Ph.D. poster and delivered a 5-minute talk at the siREN International Conference (June 8–13, 2025), sharing Oslo-method constraints and TALYS rate implications for the 92Nb cosmochronometer puzzle.",
-    images: [],
+    images: ["/images/news/siREN.jpg"],
     details: [
       "Conference gathered experts across nuclear physics (experiment/theory) and nuclear astrophysics.",
       "Presented research connected to solving the long-standing puzzle of 92Nb production sites (cosmochronometer).",
@@ -198,7 +198,7 @@ export const news = [
     title: "Invited to Phi Kappa Phi Honor Society",
     summary:
       "Invited to join Phi Kappa Phi, the oldest, largest, and most selective all-discipline honor society in the United States (founded in 1897), recognizing sustained academic excellence and scholarly distinction.",
-    images: [],
+    images: ["/images/news/phikappaphi.jpg"],
     details: [
       "Invitation-only membership recognizing top academic ranking (top 7.5% juniors; top 10% seniors/graduate students) or exceptional scholarly distinction.",
       "At MSU, faculty officers recognized my sustained academic record and progress.",
@@ -213,7 +213,7 @@ export const news = [
     title: "Graduated with the Graduate Certificate in Instrumentation in High Energy Physics (GPA 4.0)",
     summary:
       "Completed MSU’s Graduate Certificate in “Instrumentation in High Energy Physics” (TRAIN-MI) with a cumulative GPA of 4.0 (Dec 13, 2024), expanding expertise in sensors, electronics/DAQ, and complex detector systems.",
-    images: [],
+    images: ["/images/news/highenergy.jpg"],
     details: [
       "Program areas: (1) advanced sensors for particle/radiation detection (including quantum devices), (2) application-specific front-end electronics and data acquisition, (3) systems design/engineering for extreme environments (radiation, temperature, low-background).",
       "Completed this HEP-focused program while specializing in Nuclear Physics, strengthening instrumentation breadth for modern experiments.",
@@ -228,7 +228,7 @@ export const news = [
     title: "Participated in an experiment campaign at Argonne National Laboratory",
     summary:
       "Participated in an experiment campaign at Argonne National Laboratory focused on investigating low-energy enhancement behavior in γ-ray strength functions.",
-    images: [],
+    images: ["/images/news/argonne.jpg"],
     details: [
       "Campaign specifically targeted low-energy enhancement features in γ-ray strength functions.",
       "Strengthened practical experience with campaign operations and collaboration workflows relevant to γSF-focused research."
@@ -242,7 +242,7 @@ export const news = [
     title: "Oral talk at the 8th p-process Workshop (Konkoly Observatory, Budapest)",
     summary:
       "Delivered my 2nd Ph.D. oral talk at the 8th p-process Workshop (Oct 16–18, 2024), presenting upcoming RCNP measurements and Charge-Exchange Oslo Method plans to constrain rates relevant to 92Nb cosmochronometry and neutrino physics.",
-    images: [],
+    images: ["/images/news/pprocess.jpg"],
     details: [
       "Presented upcoming FRIB group work at RCNP (Japan): measurement of the 92Zr(3He,t+γ)92Nb reaction to derive rates relevant to the nuclear cosmochronometer 92Nb.",
       "Motivation: 92Nb is linked to p-process nucleosynthesis due to stability of neighboring isotopes, making its production/destruction pathways especially informative.",
@@ -259,7 +259,7 @@ export const news = [
     title: "Poster + short talk at Nuclear Physics in Astrophysics XI (TU Dresden)",
     summary:
       "Presented my 4th Ph.D. poster and a short talk at NPA-XI (Sep 15–20, 2024), introducing promising tests of the Charge-Exchange Oslo Method to indirectly constrain neutron-capture cross sections using S800 + GRETINA coincidence data.",
-    images: [],
+    images: ["/images/news/NPA.jpg"],
     details: [
       "Conference hosted 300+ scientists spanning experiments, theory, astrophysics, and astronomy; part of the biennial NPA conference series under the European Physical Society.",
       "Presented development of the Charge-Exchange Oslo Method to indirectly constrain neutron-capture cross sections.",
@@ -275,7 +275,7 @@ export const news = [
     title: "Attended Nuclear Physics in Astrophysics School XI (Stolpen, Germany)",
     summary:
       "Selected as one of 30 participants worldwide for the Nuclear Physics in Astrophysics School XI (Sep 8–15, 2024), covering nuclear experiments, reactions, theory, simulations, and multi-messenger astrophysics, plus multiple hands-on facility activities.",
-    images: [],
+    images: ["/images/news/NPAschool.jpg"],
     details: [
       "Lectures spanned experimental nuclear physics, nuclear reactions, nuclear theory, galactic archaeology, and multi-messenger astronomy taught by international experts.",
       "Hands-on activities included: DZA Day (German Center for Astrophysics focus), Experimental Hands-on Day (HAMSTER AMS, gELBE bremsstrahlung, Felsenkeller underground lab), and a Nuclear Astrophysics Masterclasses training day.",
@@ -290,7 +290,7 @@ export const news = [
     title: "Invited panelist: Career Opportunities with a Physics Degree (University of Peradeniya)",
     summary:
       "Invited panelist for the University of Peradeniya Physics Department orientation program, discussing postgraduate opportunities, postdoctoral pathways, and diverse physics careers alongside professionals from major institutions across the USA/UK/Canada.",
-    images: [],
+    images: ["/images/news/peraTalk.jpg"],
     details: [
       "Participated as an alumnus panelist for the session “Career Opportunities with a Physics Degree” for the 2022 batch.",
       "Panel included professionals representing organizations and institutions such as Intel, Amazon, Stanford University, and others.",
@@ -319,7 +319,7 @@ export const news = [
     title: "Completed M.Sc. in Physics (GPA 4.0) during my Ph.D.",
     summary:
       "Completed my M.Sc. in Physics at Michigan State University with a cumulative GPA of 4.0 while pursuing my Ph.D., finishing just before the end of my second Ph.D. year.",
-    images: [],
+    images: ["/images/news/MSc.jpg"],
     details: [
       "Completed 21 credits of theory coursework and 14 credits of research as part of the M.Sc. program.",
       "Milestone achieved while continuing full-time FRIB-based Ph.D. research.",
@@ -334,7 +334,7 @@ export const news = [
     title: "Poster at the 21st Exotic Beam Summer School (EBSS2024, Argonne National Laboratory)",
     summary:
       "Presented my 3rd Ph.D. poster at EBSS2024 (July 14–20, 2024) at Argonne National Laboratory, combining expert lectures with hands-on laboratory sessions using state-of-the-art instrumentation for rare-isotope beam science.",
-    images: [],
+    images: ["/images/news/EBSS.jpg"],
     details: [
       "Brought together early-career nuclear researchers worldwide focused on rare-isotope beam science.",
       "Mornings: lectures from leading experts; afternoons: hands-on lab activities applying advanced techniques and instrumentation with radioactive beams.",
@@ -349,7 +349,7 @@ export const news = [
     title: "Poster at the 9th Workshop on Nuclear Level Density and Gamma Strength (University of Oslo)",
     summary:
       "Presented my 2nd Ph.D. poster at the 9th Workshop on Nuclear Level Density and Gamma Strength (May 27, 2024) at the University of Oslo, engaging with experimental and theoretical experts across NLD and γSF research.",
-    images: [],
+    images: ["/images/news/oslo1.jpg"],
     details: [
       "Conference brought together experimentalists and theorists to discuss cutting-edge research in nuclear level density and γ-ray strength.",
       "The discussions and insights were directly valuable for my Ph.D. analysis direction and methodological decisions."
@@ -363,7 +363,7 @@ export const news = [
     title: "Advanced to Ph.D. candidacy (GPA 4.0 milestone)",
     summary:
       "Advanced to Ph.D. candidacy in Nuclear Physics with a cumulative GPA of 4.0 (30 credits) in 1 year and 9 months, while also nearing completion of my M.Sc. requirements and progressing an ongoing research paper.",
-    images: [],
+    images: ["/images/news/phdoral.jpg"],
     details: [
       "Achieved candidacy milestone within the globally top-ranked Nuclear Physics program at Michigan State University.",
       "Completed 30 credits with a 4.0 cumulative GPA at the time of candidacy.",
@@ -393,7 +393,7 @@ export const news = [
     title: "First Ph.D. poster at the inaugural IReNA–Ukakuren conference (Tokyo, Japan)",
     summary:
       "Presented my first Ph.D. research poster at the inaugural IReNA–Ukakuren conference in Tokyo (Sep 1, 2023), focused on advancing professional development in nuclear astrophysics and beyond.",
-    images: [],
+    images: ["/images/news/ukakuren.jpg"],
     details: [
       "Major first milestone for communicating my Ph.D. research to an international audience.",
       "Conference theme emphasized professional development and scientific networking in nuclear astrophysics."
@@ -407,7 +407,7 @@ export const news = [
     title: "First conference + first summer school: CeNAM Frontiers Meeting & IReNA Summer School (2023)",
     summary:
       "Participated in my first conference (CeNAM Frontiers in Nuclear Astrophysics Meeting 2023) and my first summer school (IReNA Frontiers in Nuclear Astrophysics 2023), gaining foundational community connections early in my Ph.D. journey.",
-    images: [],
+    images: ["/images/news/frontiers.jpg"],
     details: [
       "Participated successfully in both the CeNAM Frontiers meeting and the IReNA Frontiers summer school.",
       "This pair of events provided a strong entry point into the broader nuclear astrophysics community."
@@ -421,7 +421,7 @@ export const news = [
     title: "Started as a Graduate Research Assistant at FRIB (Charge-Exchange Nuclear Astrophysics)",
     summary:
       "Started a Graduate Research Assistant position at the Facility for Rare Isotope Beams (FRIB) in the Charge-Exchange Nuclear Astrophysics group under Prof. Remco Zegers.",
-    images: [],
+    images: ["/images/news/RAstart.jpg"],
     details: [
       "Began FRIB-based graduate research in charge-exchange reactions and nuclear astrophysics applications.",
       "This role launched my core Ph.D. research program in experimental nuclear astrophysics."
@@ -435,7 +435,7 @@ export const news = [
     title: "Invited for a BBC documentary interview",
     summary:
       "Invited for a BBC documentary interview highlighting my academic journey and accomplishments—an important personal and professional milestone.",
-    images: [],
+    images: ["/images/news/BBC.jpg"],
     details: [
       "Invitation recognized milestones in my academic path and broader accomplishments.",
       "The original note explicitly referenced appreciation for Kawanthissa Maha Vidyalaya (Ampara), Dharmaraja College, University of Peradeniya, Michigan State University, and FRIB as part of the journey context."
@@ -449,7 +449,7 @@ export const news = [
     title: "Started my Ph.D. in Nuclear Physics at Michigan State University / FRIB",
     summary:
       "Started my Ph.D. in Nuclear Physics at Michigan State University, based at the Facility for Rare Isotope Beams (FRIB).",
-    images: [],
+    images: ["/images/news/phdstart.jpg"],
     details: [
       "Began Ph.D. training and research at MSU and FRIB focused on experimental nuclear physics with astrophysics connections."
     ],
@@ -462,7 +462,7 @@ export const news = [
     title: "Graduated B.Sc. (Honours) in Physics — top of batch with medals, prizes, and major awards",
     summary:
       "Graduated from the University of Peradeniya with a B.Sc. (Honours) in Physics (First Class), ranked top of the batch with a 0.15 GPA advantage, and received the full set of departmental medals/prizes/awards associated with the General Convocation 2020.",
-    images: [],
+    images: ["/images/news/bscgraduate.jpg"],
     details: [
       "Degree: B.Sc. (Honours) in Physics, First Class Honors; ranked Top of the Batch (0.15 GPA advantage over second position).",
       "GPAs: Overall GPA 3.90; Physics GPA 3.93; Mathematics GPA 4.00.",
