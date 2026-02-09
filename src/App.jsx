@@ -362,7 +362,7 @@ export default function App() {
         </Section>
 
         {/* CONTACT */}
-        <Section id="contact" title="Contact" subtitle="Send a message directly from the website.">
+        <Section id="contact" title="Contact" subtitle="Let’s connect—message me here or use the links below">
           <div className="twoCol">
             <div className="card">
               <h3 className="h4">Email</h3>
@@ -479,7 +479,7 @@ export default function App() {
         <h3 className="h4">Send a message</h3>
         <p className="muted tiny">
           {contactForm.endpoint
-            ? "This form sends directly to my inbox."
+            ? "This form sends directly to my inbox"
             : "To send directly to my inbox without opening an email app, add a Formspree endpoint in src/content.js."}
         </p>
 
