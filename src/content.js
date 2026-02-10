@@ -563,7 +563,7 @@ export const projects = [
     title: "Extraction of Gamow–Teller and Fermi Strengths via Charge-Exchange Reactions",
     timeframe: "Ongoing",
     role: "Graduate Research Assistant (FRIB/MSU)",
-    image: "/images/charge_exchange.png",
+    image: "/images/CE.png",
     tags: ["Charge-Exchange", "Multipole Decomposition Analysis", "DWBA", "Gamow–Teller"],
     summary:
       "Extracting Gamow–Teller and Fermi transition strengths from charge-exchange data using multipole decomposition analysis (MDA) to reduce theoretical uncertainties.",
@@ -572,7 +572,7 @@ export const projects = [
       "Performs charge-exchange measurements and constructs angular-distribution observables",
       "Applies MDA with DWBA-based templates to isolate isovector transition components",
       "Extracts Gamow–Teller and Fermi strengths for use in neutrino–nucleus cross-section calculations",
-      "(AI generated image)"
+      "(Image credit: CE-group/FRIB)"
     ],
     links: []
   },
@@ -589,7 +589,7 @@ export const projects = [
       "Uses experimentally extracted Gamow–Teller and Fermi strengths as key nuclear inputs",
       "Computes charged-current neutrino–nucleus cross sections (including low-momentum-transfer limits) using MARLEY",
       "Benchmarks and updates cross-section inputs for applications in neutrino detection and astrophysical modeling",
-      "(Image credit: APS/Alan Stonebraker)"
+      "(Image credit: Alan Stonebraker/APS)"
     ],
     links: []
   },
