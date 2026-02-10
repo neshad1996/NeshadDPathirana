@@ -16,17 +16,35 @@ import {
 function useActiveSection(sectionIds) {
   const [active, setActive] = useState(sectionIds[0] || "home");
 
+  // When clicking nav links, update active immediately from the hash
+  useEffect(() => {
+    const onHashChange = () => {
+      const id = window.location.hash.replace("#", "");
+      if (sectionIds.includes(id)) setActive(id);
+    };
+    window.addEventListener("hashchange", onHashChange);
+    onHashChange(); // run once on load
+    return () => window.removeEventListener("hashchange", onHashChange);
+  }, [sectionIds]);
+
+  // While scrolling, update active using IntersectionObserver (more forgiving)
   useEffect(() => {
     const els = sectionIds.map((id) => document.getElementById(id)).filter(Boolean);
+
     const io = new IntersectionObserver(
       (entries) => {
         const visible = entries
           .filter((e) => e.isIntersecting)
           .sort((a, b) => (b.intersectionRatio ?? 0) - (a.intersectionRatio ?? 0))[0];
+
         if (visible?.target?.id) setActive(visible.target.id);
       },
-      { rootMargin: "-35% 0px -55% 0px", threshold: [0.1, 0.2, 0.4, 0.6] }
+      {
+        rootMargin: "-20% 0px -60% 0px",
+        threshold: 0.01
+      }
     );
+
     els.forEach((el) => io.observe(el));
     return () => io.disconnect();
   }, [sectionIds]);
