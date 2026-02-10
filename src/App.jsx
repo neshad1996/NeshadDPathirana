@@ -105,10 +105,6 @@ export default function App() {
           </nav>
 
           <div className="navActions">
-            <a className="btn small" href={profile.cvUrl} target="_blank" rel="noreferrer">
-              Download CV
-            </a>
-
             <button className="iconBtn burger" onClick={() => setMenuOpen(true)} aria-label="Open menu">
               ☰
             </button>
@@ -156,11 +152,6 @@ export default function App() {
                 ))}
               </div>
 
-              <div className="menuActions">
-                <a className="btn" href={profile.cvUrl} target="_blank" rel="noreferrer" onClick={() => setMenuOpen(false)}>
-                  Download CV
-                </a>
-              </div>
             </motion.div>
           </motion.div>
         ) : null}
