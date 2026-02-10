@@ -571,6 +571,18 @@ function SocialIcon({ name }) {
   const common = { width: 18, height: 18, viewBox: "0 0 24 24", fill: "none", xmlns: "http://www.w3.org/2000/svg" };
 
   switch (name) {
+    case "cv":
+      return (
+        <svg {...common}>
+          <path
+            d="M7 3.5h7l3 3V20a1.8 1.8 0 0 1-1.8 1.8H7A1.8 1.8 0 0 1 5.2 20V5.3A1.8 1.8 0 0 1 7 3.5Z"
+            stroke="currentColor"
+            strokeWidth="2"
+          />
+          <path d="M14 3.5V7h3" stroke="currentColor" strokeWidth="2" />
+          <path d="M7.8 11h7.4M7.8 14.2h7.4M7.8 17.4h5.2" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+        </svg>
+      );
     case "linkedin":
       return (
         <svg {...common}>
