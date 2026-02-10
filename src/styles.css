@@ -743,7 +743,7 @@ input:focus, textarea:focus{
   align-items: center;
   gap: 12px;
   flex-wrap: wrap;
-  margin-top: 18px; /* space after paragraphs */
+  margin-top: 40px; /* space after paragraphs */
   max-width: 70ch;
 }
 
