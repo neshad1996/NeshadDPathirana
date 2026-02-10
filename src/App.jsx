@@ -310,7 +310,7 @@ export default function App() {
           <div className="card">
             <div className="cols">
               {awards.map((a) => (
-                <div key={a} className="awardItem">• {a}</div>
+                <div key={a} className="awardItem">{a}</div>
               ))}
             </div>
           </div>
