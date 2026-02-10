@@ -786,3 +786,31 @@ input:focus, textarea:focus{
   filter: drop-shadow(0 6px 14px rgba(0,0,0,0.35));
 }
 
+/* Mobile-only cleanup for the Home logos + spacing before profile card */
+@media (max-width: 980px){
+
+  /* 1) Bring logos row back to the tighter/previous look on mobile */
+  .affLogoRow{
+    margin-top: 10px;     /* adjust: 6–12px */
+    gap: 10px;            /* space between logo chips */
+  }
+
+  /* optional: make chips slightly smaller so they don’t look “chunky” */
+  .affLogoChip{
+    height: 40px;         /* was 46px */
+    padding: 6px 10px;    /* reduce inner padding */
+    border-radius: 12px;
+  }
+
+  .affLogoImg{
+    height: 22px;         /* keeps logos balanced */
+    max-width: 140px;
+  }
+
+  /* 2) Add more gap between the logos row and the profile picture/card */
+  /* In mobile, your right column drops below, so this adds spacing before the card */
+  .profileCard{
+    margin-top: 18px;     /* adjust: 14–28px */
+  }
+}
+
