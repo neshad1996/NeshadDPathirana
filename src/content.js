@@ -508,7 +508,7 @@ export const news = [
 export const projects = [
   {
     id: "oslomethod",
-    title: "Experimental Extraction of Nuclear Statistical Properties",
+    title: "Experimental Extraction of Nuclear Statistical Properties using the Oslo Method",
     timeframe: "Published + Ongoing",
     role: "Graduate Research Assistant (FRIB/MSU) • Visiting Scholar (University of Oslo)",
     image: "/images/statistical.jpg",
@@ -520,6 +520,25 @@ export const projects = [
       "Performs experiments using transfer and charge-exchange (CE) reactions across multiple systems",
       "Extracts nuclear level densities (NLDs) and γ-ray strength functions (γSFs) using Oslo-method techniques",
       "Develops and applies the CE-Oslo method to extend Oslo-type extractions to charge-exchange reactions",
+      "(AI generated image)"
+    ],
+    links: []
+  },
+    {
+    id: "mda",
+    title: "Experimental Extraction of Gamow–Teller and Fermi Strengths via Charge-Exchange Reactions",
+    timeframe: "Ongoing",
+    role: "Graduate Research Assistant (FRIB/MSU)",
+    image: "/images/charge_exchange.png",
+    tags: ["Charge-Exchange", "Multipole Decomposition Analysis", "DWBA", "Gamow–Teller"],
+    summary:
+      "Extracting Gamow–Teller and Fermi transition strengths from charge-exchange data using multipole decomposition analysis (MDA) to reduce theoretical uncertainties.",
+    bullets: [
+      "Targets weak-interaction nuclear inputs relevant to neutrino physics and nuclear astrophysics",
+      "Performs charge-exchange measurements and constructs angular-distribution observables",
+      "Applies MDA with DWBA-based templates to isolate isovector transition components",
+      "Extracts Gamow–Teller and Fermi strengths for use in neutrino–nucleus cross-section calculations",
+      /*"(Image credit: CE-group/FRIB)"*/
       "(AI generated image)"
     ],
     links: []
@@ -537,7 +556,7 @@ export const projects = [
       "Focuses on neutron-capture rates relevant to nucleosynthesis and cosmochronometry",
       "Combines experimentally extracted NLD and γSF with model systematics to reduce reaction-rate uncertainties",
       "Performs Hauser–Feshbach calculations using TALYS and evaluates the impact of nuclear-input variations",
-      "(Image credit: NNDC)"
+      "(Image credit: H. Schatz et al 2022)"
     ],
     links: []
   },
@@ -555,24 +574,6 @@ export const projects = [
       "Runs post-processing simulations using NuGrid (PPN) and WinNet across CCSN and SNe Ia trajectories",
       "Quantifies how nuclear-physics constraints shift predicted p-process yields and addresses key model discrepancies",
       "(Image credit: NASA)"
-    ],
-    links: []
-  },
-  {
-    id: "mda",
-    title: "Extraction of Gamow–Teller and Fermi Strengths via Charge-Exchange Reactions",
-    timeframe: "Ongoing",
-    role: "Graduate Research Assistant (FRIB/MSU)",
-    image: "/images/CE.png",
-    tags: ["Charge-Exchange", "Multipole Decomposition Analysis", "DWBA", "Gamow–Teller"],
-    summary:
-      "Extracting Gamow–Teller and Fermi transition strengths from charge-exchange data using multipole decomposition analysis (MDA) to reduce theoretical uncertainties.",
-    bullets: [
-      "Targets weak-interaction nuclear inputs relevant to neutrino physics and nuclear astrophysics",
-      "Performs charge-exchange measurements and constructs angular-distribution observables",
-      "Applies MDA with DWBA-based templates to isolate isovector transition components",
-      "Extracts Gamow–Teller and Fermi strengths for use in neutrino–nucleus cross-section calculations",
-      "(Image credit: CE-group/FRIB)"
     ],
     links: []
   },
