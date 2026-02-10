@@ -121,21 +121,30 @@ a:hover{ text-decoration:underline; text-underline-offset:3px; }
   border-bottom: 1px solid var(--line);
 }
 
-/* (6) Center the nav links nicely */
+/* Desktop header alignment fix */
 .headerInner{
   min-height: 68px;
   display: grid;
-  grid-template-columns: 1fr auto;  /* brand | links (right) */
-  align-items: center;
-  gap: 12px;
+  grid-template-columns: 1fr auto;
+  align-items: center; /* keep */
 }
 
+/* Make the nav row itself center */
 .navLinks{
-  display:flex;
-  align-items:center;
-  justify-content:flex-end; /* push links to the right */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   gap: 8px;
-  flex-wrap:wrap;
+  align-self: center;   /* important */
+}
+
+/* Make each link vertically centered (baseline issues go away) */
+.navLink{
+  display: inline-flex;     /* important */
+  align-items: center;      /* important */
+  height: 36px;             /* pick what looks best: 34–40px */
+  padding: 0 12px;          /* no vertical padding */
+  line-height: 1;           /* avoid baseline shift */
 }
 
 /* Hide navActions on desktop since it only contains burger (which is hidden anyway) */
@@ -158,12 +167,7 @@ a:hover{ text-decoration:underline; text-underline-offset:3px; }
   gap: 10px;
 }
 
-.navLink{
-  padding: 8px 10px;
-  border-radius: 999px;
-  border: 1px solid transparent;
-  color: var(--muted);
-}
+
 .navLink.active{
   color: var(--text);
   background: var(--card);
