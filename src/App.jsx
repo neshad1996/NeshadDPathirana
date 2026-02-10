@@ -215,7 +215,6 @@ export default function App() {
               <div className="profileMeta">
                 <div className="profileName">{profile.name}</div>
 
-                <div className="muted">Graduate Research Assistant,</div>
                 <div className="muted">{profile.affiliation}
                 </div>
         
