@@ -544,14 +544,15 @@ export const projects = [
     title: "Supernova Post-Processing Nucleosynthesis Modeling",
     timeframe: "Ongoing",
     role: "Graduate Research Assistant (FRIB/MSU) • Visiting Scholar (University of Oslo)",
-    image: "/images/supernova.webp",
+    image: "/images/supernoave.jpg",
     tags: ["NuGrid", "PPN", "WinNet", "p-process"],
     summary:
       "Simulating nucleosynthesis in core-collapse and thermonuclear supernova environments using experimentally constrained reaction rates in post-processing networks.",
     bullets: [
       "Propagates experimentally constrained neutron-capture rates into nucleosynthesis calculations",
       "Runs post-processing simulations using NuGrid (PPN) and WinNet across CCSN and SNe Ia trajectories",
-      "Quantifies how nuclear-physics constraints shift predicted p-process yields and addresses key model discrepancies"
+      "Quantifies how nuclear-physics constraints shift predicted p-process yields and addresses key model discrepancies",
+      "Image credit: NASA"
     ],
     links: []
   },
