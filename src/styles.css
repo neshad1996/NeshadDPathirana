@@ -407,8 +407,39 @@ a:hover{ text-decoration:underline; text-underline-offset:3px; }
 .pubLinks a{ text-decoration:underline; text-underline-offset:3px; }
 
 /* Awards columns */
-.cols{ column-count: 2; column-gap: 18px; }
-.awardItem{ break-inside: avoid; color: var(--muted); margin: 8px 0; }
+.cols{
+  columns: 2;
+  column-gap: 22px;
+}
+
+/* Each award line (bullet handled by CSS for perfect wrapping) */
+.awardItem{
+  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+
+  position: relative;
+  padding-left: 18px;      /* space for bullet */
+  margin: 0 0 12px;
+
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+/* Bullet */
+.awardItem::before{
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0.05em;
+  opacity: 0.9;
+}
+
+/* Mobile: one column, cleaner spacing */
+@media (max-width: 720px){
+  .cols{ columns: 1; }
+  .awardItem{ margin: 0 0 10px; }
+}
+
 
 .spacer{ height: 14px; }
 
