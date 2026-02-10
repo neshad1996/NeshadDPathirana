@@ -458,7 +458,7 @@ color: var(--muted);
   left: 0;
   top: 0.15em;        /* adjust if needed: 0.05em–0.20em */
   opacity: 0.9;
-  font-size: 1.15em;  /* makes bullet match Teaching bullets better */
+  font-size: 1.9em;  /* makes bullet match Teaching bullets better */
   line-height: 1;
 }
 
