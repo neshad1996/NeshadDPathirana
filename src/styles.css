@@ -128,7 +128,13 @@ align-items: center;
 gap: 12px;
 }
 
-.brand{ display:flex; align-items:center; gap:10px; font-weight:800; letter-spacing:-0.02em; justify-self: start; }
+/*.brand{ display:flex; align-items:center; gap:10px; font-weight:800; letter-spacing:-0.02em; justify-self: start; }*/
+.brand{
+  display: flex;
+  align-items: center;     /* ✅ vertical center for name + dot */
+  gap: 10px;
+}
+
 .brandDot{
 width:10px; height:10px; border-radius:999px;
 background: var(--accent);
